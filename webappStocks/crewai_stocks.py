@@ -141,9 +141,9 @@ crew = Crew(
     max_iter = 15
 )
 
-results = crew.kickoff(inputs = {'ticket': 'AAPL}'})
+#results = crew.kickoff(inputs = {'ticket': 'AAPL}'})
 
-list(results.keys())
+#list(results.keys())
 
 with st.sidebar:
     st.header("Enter the tStock to Research")
@@ -156,7 +156,7 @@ if submit_button:
     if not topic:
         st.error("Please fill the ticket field")
     else:
-        results.kickoff(inputs = {'ticket' : topic})
+        results = crew.kickoff(inputs = {'ticket' : topic})
 
         st.subheader("Results of your research:")
         st.write(results['final_output'])
