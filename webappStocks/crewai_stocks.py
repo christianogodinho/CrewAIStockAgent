@@ -146,7 +146,7 @@ crew = Crew(
 #list(results.keys())
 
 with st.sidebar:
-    st.header("Enter the tStock to Research")
+    st.header("Enter the Stock to Research")
 
     with st.form(key='research_form'):
         topic = st.text_input("Select the ticket")
