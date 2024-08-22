@@ -4,6 +4,10 @@
 
 CrewAI - StockAgent is an application for consulting the stock market using GPT3.5-TURBO. After selecting the ticket of your choice, you'll receive stock price history, news and predictions in the simple but efficient user interface.
 
+### Important:
+
+The application uses OpenAI's LLM which runs on paid querries made for the ML model. Therefore, consult your cradit and billing information at 'https://platform.openai.com/settings/organization/billing/overview' for continuous usage of the application.
+
 ## Functionalities
 
 - **User-Friendly Interface**: Easy to use clean UI with fast response.
